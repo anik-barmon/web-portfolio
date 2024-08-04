@@ -102,11 +102,32 @@ max-width: 585;
 }
 
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section style */
 .about{
     padding: 130px;
     border-radius: 10px;
 background: #FFF8F3;
 margin: 130px 0px;
+}
+.about-infut-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+   
+}
+.info-title{
+    color: #757575;
+    font-weight: 400;
+line-height: 30px;
+}
+.info-discription{
+    color: #474747;
+    font-weight: 700;
+line-height: 30px;
 }
